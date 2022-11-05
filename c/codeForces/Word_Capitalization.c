@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+// source ==>   https://codeforces.com/problemset/problem/281/A
+
+int main(){
+    char word[1000];
+    scanf("%s",word);
+
+    if(word[0]>=97 && word[0]<=122){
+        word[0]-=32;
+    }
+
+    printf("%s",word);
+
+    return 0;
+}
